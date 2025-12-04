@@ -1,0 +1,216 @@
+<main class="bg-light pt-5">
+    <!-- HERO SECTION -->
+    <section class="container-fluid text-center mb-3 pt-5 main_first_section">
+      <div class="row pt-5">
+        <div class="col-md-6 text-justify">
+          <h1 class="fs-1 text-success text-center">Welcome to Green Basket</h1>
+          <p class="mt-3 fs-2">
+            Say goodbye to chemical-laden foods and switch to a healthier lifestyle.
+            We bring you fresh, organic vegetables, fruits, and eco-friendly products directly from trusted farmers.
+            <br /><br />
+            Eat pure, live pure – because your health deserves nature’s best.
+            <strong class="plant"> 🌱</strong>
+          </p>
+          <div class="d-flex justify-content-center gap-3">
+            <button class="bg-success text-white rounded-2 p-2 fs-5">Browse Products</button>
+            <button class="rounded-2 px-5 fs-5 join_us_hover">Contact Us</button>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img [src]="image" class="center_image_hover img-fluid mx-auto d-block"
+            alt="Green Basket Products" />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE PRODUCTS CAROUSEL -->
+    <div class="text-center text-success text-decoration-underline">
+      <p class="fs-1">Feature Products</p>
+    </div>
+
+    <section>
+      <div class="container border-2 rounded-3 featured_products_Section pt-2 pb-3">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active row mt-2 text-center">
+              <div>
+                <h3 class="fs-2 text-light">Vegetables</h3>
+              </div>
+              <img src="./images/coloured-capsicum.webp" class="col-2 thumbnail" alt="Capsicum" />
+              <img src="./images/Mirchi.avif" class="col-2 thumbnail" alt="Mirchi" />
+              <img src="./images/fresh-onions.webp" class="col-2 thumbnail" alt="Onions" />
+              <img src="./images/Tomato.webp" class="col-2 thumbnail" alt="Tomato" />
+              <img src="./images/Potato.jpg" class="col-2 thumbnail" alt="Potato" />
+            </div>
+            <div class="carousel-item row mt-2 text-center">
+              <div>
+                <h3 class="fs-2 text-light">Fruits</h3>
+              </div>
+              <img src="./images/Apples.webp" class="col-2 thumbnail" alt="Apples" />
+              <img src="./images/Banana.jpeg" class="col-2 thumbnail" alt="Banana" />
+              <img src="./images/Mangoes.webp" class="col-2 thumbnail" alt="Mangoes" />
+              <img src="./images/guava.webp" class="col-2 thumbnail" alt="Guava" />
+              <img src="./images/Jackfruit.jpeg" class="col-2 thumbnail" alt="Jackfruit" />
+            </div>
+            <div class="carousel-item row mt-2 text-center">
+              <div>
+                <h3 class="fs-2 text-light">Dairy</h3>
+              </div>
+              <img src="./images/Eggs.jpeg" class="col-2 thumbnail" alt="Eggs" />
+              <img src="./images/Milk1.jpeg" class="col-2 thumbnail" alt="Milk" />
+              <img src="./images/Curd.jpeg" class="col-2 thumbnail" alt="Curd" />
+              <img src="./images/Ghee.jpeg" class="col-2 thumbnail" alt="Ghee" />
+              <img src="./images/Butter.jpeg" class="col-2 thumbnail" alt="Butter" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP PRODUCTS -->
+    <h2 class="text-success text-center mt-4">Top Products</h2>
+    <section class="container d-flex flex-column align-items-center feature_products gap-1 p-2 border border-2">
+      <div class="products_category">
+        <h3 class="fs-2 products_Section_name">Vegetables</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Tomato.webp" class="img-thumbnail" alt="Tomato" />
+              <h3>Tomato</h3>
+              <p>Price:<span>💵9</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Potato.jpg" class="img-thumbnail" alt="Potato" />
+              <h3>Potato</h3>
+              <p>Price:<span>💵9</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Mirchi.avif" class="img-thumbnail" alt="Mirchi" />
+              <h3>Mirchi</h3>
+              <p>Price:<span>💵9</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/fresh-onions.webp" class="img-thumbnail" alt="Onions" />
+              <h3>Onions</h3>
+              <p>Price:<span>💵9</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products_category">
+        <h3 class="products_Section_name">Fruits</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Apples.webp" class="img-thumbnail" alt="Apple" />
+              <h3>Apple</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Banana.jpeg" class="img-thumbnail" alt="Banana" />
+              <h3>Banana</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/guava.webp" class="img-thumbnail" alt="Guava" />
+              <h3>Guava</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Mangoes.webp" class="img-thumbnail" alt="Mango" />
+              <h3>Mango</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="products_category">
+        <h3 class="products_Section_name">Dairy</h3>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Milk1.jpeg" class="img-thumbnail" alt="Milk" />
+              <h3>Milk</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Curd.jpeg" class="img-thumbnail" alt="Curd" />
+              <h3>Curd</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Ghee.jpeg" class="img-thumbnail" alt="Ghee" />
+              <h3>Ghee</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="each_product_feature text-center">
+              <img src="./images/Eggs.jpeg" class="img-thumbnail" alt="Eggs" />
+              <h3>Eggs</h3>
+              <p>Price:<span>💵15</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="container content-section">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <i class="fas fa-truck fs-1 text-success"></i>
+          <h4>Fast Delivery</h4>
+          <p>We deliver fresh products to your doorstep within 24 hours of ordering.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-leaf fs-1 text-success"></i>
+          <h4>100% Organic</h4>
+          <p>All our products are certified organic and free from harmful chemicals.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fas fa-rupee-sign fs-1 text-success"></i>
+          <h4>Best Prices</h4>
+          <p>Get farm-fresh products at competitive prices without middlemen.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 🛒 CART POPUP MODAL -->
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="cartlist">
+          <p class="text-center text-muted fs-5">Your cart is empty.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>

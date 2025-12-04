@@ -1,0 +1,8 @@
+
+.center_image_hover:hover{
+        transition: all 0.6s ease;
+
+}
+.center_image_hover:hover{
+    transform: scale(1.2);
+}

@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid d-flex justify-content-between align-items-center">
+        <div class="d-flex pt-2">
+          <img [src]="logo" class="logo-img" alt="Green_Basket_Logo" />
+          <a class="navbar-brand text-success fs-1" href="#">Green Basket</a>
+        </div>
+
+        <form class="d-flex flex-grow-1 mx-4" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item nav-items-hover">
+              <a class="nav-link active nav-items-hover text-red-400"  routerLink="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-items-hover" href="#"><i class="fas fa-leaf text-success me-1"></i>Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-items-hover" href="#"><i class="fas fa-tag me-1"></i>Offers</a>
+            </li>
+            <li class="nav-item">
+              <!-- CART BUTTON (opens modal) -->
+              <a class="nav-link nav-items-hover" href="#" id="cartbtn" data-bs-toggle="modal" data-bs-target="#cartModal">
+                <i class="fas fa-cart-shopping text-success me-1"></i>Cart
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-items-hover" href="#"><i class="fas fa-user me-1"></i>Account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
