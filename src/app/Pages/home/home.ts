@@ -24,4 +24,8 @@ export class Home {
   potato="Images/Potato.jpg"
   tomato="Images/Tomato.webp";
 
+    // Add "Add to Cart" button for each product
+    
+   
+
 }
