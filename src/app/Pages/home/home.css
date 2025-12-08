@@ -6,3 +6,6 @@
 .center_image_hover:hover{
     transform: scale(1.2);
 }
+ .content-section {
+            padding: 40px 0;
+        }
